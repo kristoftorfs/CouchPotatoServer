@@ -18,9 +18,7 @@ class Base(TorrentProvider):
     http_time_between_calls = 1  # seconds
 
     proxy_list = [
-        'https://yts.re',
-        'https://yts.wf',
-        'https://yts.im',
+        'https://yts.ag',
     ]
 
     def search(self, movie, quality):
